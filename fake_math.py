@@ -1,7 +1,8 @@
 def divide(first, second):
     if second != 0:
-        print(first/second)
+        a = first/second
     else:
-        print('Ошибка')
-
+        a = 'Ошибка'
+        
+    return a
 

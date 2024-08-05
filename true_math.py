@@ -1,7 +1,8 @@
 def divide(first, second):
     if second != 0:
-        print(first/second)
+        a = first/second
     else:
         from math import inf
-        print(inf)
-
+        a = inf
+    
+    return a
